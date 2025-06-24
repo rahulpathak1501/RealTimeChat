@@ -3,7 +3,7 @@ import { io, Socket } from "socket.io-client";
 
 type Message = string;
 
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://realtimechat-backend-i6tk.onrender.com/";
 
 function App() {
   const [username, setUsername] = useState("");
