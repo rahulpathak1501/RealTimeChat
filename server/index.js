@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://realtimechat-frontend-2pb5.onrender.com/",
+  "https://realtimechat-frontend-2pb5.onrender.com",
 ];
 
 const io = new Server(server, {
